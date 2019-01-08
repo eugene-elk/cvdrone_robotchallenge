@@ -392,7 +392,7 @@ int main(int argc, char *argv[])
 			cross_size = 0.5;
 		}
 		if (condition == 5) condition = 8;
-		/*
+		
 		else if ((condition == 5) || (condition == 12)) {
 			if (main.on_image(main.comp1)) {
 				flag_last_comp1 = true;
@@ -594,7 +594,7 @@ int main(int argc, char *argv[])
 				condition -= 1;
 			}
 		}
-		*/
+		
 		else if (condition == 8) {
 			condition_move(position, speed, timer, condition, -1.0, 0.0, 2500, big_flight_waiting_time_ms);
 		}
